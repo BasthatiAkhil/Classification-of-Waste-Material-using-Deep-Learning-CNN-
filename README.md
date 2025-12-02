@@ -16,8 +16,6 @@ KEY FEATURES
 - Lightweight and fast prediction.
 FLOWCHART (LINK)
 <img width="545" height="583" alt="image" src="https://github.com/user-attachments/assets/2ce3e76b-64cf-438b-b5dc-6a903015e413" />
- <img width="1024" height="1024" alt="Gemini_Generated_Image_gup590gup590gup5" src="https://github.com/user-attachments/assets/cc5898c3-a15f-4e02-8de6-a16803e1ad7a" />
-
 
 PROJECT STRUCTURE
 project/
@@ -35,7 +33,9 @@ DATASET DETAILS
 The dataset contains two categories of images:
 - Organic: fruits, vegetables, food waste.
 - Recyclable: plastic bottles, metal cans, glass items.
-Images are arranged into Train and Test folders for CNN learning and evaluation. 
+Images are arranged into Train and Test folders for CNN learning and evaluation.
+<img width="733" height="561" alt="image" src="https://github.com/user-attachments/assets/4bac9eb9-8790-4542-9ab4-8b678a81b262" />
+
 MODEL TRAINING DETAILS
 - Image size: 64×64×3
 - Optimizer: Adam
@@ -43,8 +43,10 @@ MODEL TRAINING DETAILS
 - Metrics: Accuracy
 - Data Augmentation: rotation, flip, zoom, shift
 The model is saved as final_model.keras.
- 
- 
+ <img width="900" height="467" alt="image" src="https://github.com/user-attachments/assets/54077f43-3081-4b25-8ebd-f67ff917fc3e" />
+ <img width="778" height="404" alt="image" src="https://github.com/user-attachments/assets/adf48413-2d45-404e-a692-88629488f889" />
+
+
 PREDICTION PROCESS
 1. User uploads an image.
 2. Image is resized and normalized.
@@ -55,15 +57,18 @@ WEB APPLICATION WORKFLOW
 User → Upload Image → Flask Backend → Preprocessing → CNN Model → Prediction → Display Output.
 SAMPLE IMAGES (LINKS)
 Organic Waste: Food_waste.jpg
- 
+ <img width="711" height="301" alt="image" src="https://github.com/user-attachments/assets/ca2633f1-c14b-473b-b2f5-612fbd72029d" />
+
 Prediction: Organic
 Confidence: ~85–95%
 Recyclable Waste:
-  
+  <img width="673" height="238" alt="image" src="https://github.com/user-attachments/assets/9088b5ec-8411-40a4-9eab-3ca32ed541b4" />
+
 Prediction: Recyclable
 Confidence: ~80–92%
 Flask Interface Example: 
  
+<img width="426" height="219" alt="image" src="https://github.com/user-attachments/assets/bb74d71a-668f-4a4d-a34e-b826e92526bd" />
 
 
 HOW TO RUN
