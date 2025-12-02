@@ -15,7 +15,9 @@ KEY FEATURES
 - High accuracy with deep learning.
 - Lightweight and fast prediction.
 FLOWCHART (LINK)
- 
+<img width="545" height="583" alt="image" src="https://github.com/user-attachments/assets/2ce3e76b-64cf-438b-b5dc-6a903015e413" />
+ <img width="1024" height="1024" alt="Gemini_Generated_Image_gup590gup590gup5" src="https://github.com/user-attachments/assets/cc5898c3-a15f-4e02-8de6-a16803e1ad7a" />
+
 
 PROJECT STRUCTURE
 project/
